@@ -1,3 +1,4 @@
+import _ from 'lodash'
 function component() {
   const elm = document.createElement('div')
   const array = ['Hello', 'webpack']
@@ -5,4 +6,4 @@ function component() {
   return elm
 }
 
-document.body.appendChild(component())
+document.body.appendChild(component())  
