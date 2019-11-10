@@ -1,7 +1,7 @@
 import _ from 'lodash'
 function component() {
   const elm = document.createElement('div')
-  const array = ['Hello', 'webpack']
+  const array = ['Hello', 'webpack', '!!']
   elm.innerHTML = _.join(array, ' ')
   return elm
 }
