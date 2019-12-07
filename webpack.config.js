@@ -12,8 +12,8 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',//styleの適用
-          'css-loader'//cssの内容をjsに読み込み
+          'style-loader',//styleタグにオブジェクトの内容を反映
+          'css-loader'//cssの内容をjsのオブジェクトとして生成
         ]
       }
     ]
